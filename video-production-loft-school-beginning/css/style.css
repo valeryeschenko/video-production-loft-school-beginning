@@ -220,11 +220,11 @@ body {
 }
 
 .news__item--bg-clip {
-    background-image: url(/img/camera.png);
+    background-image: url(../img/camera.png);
 }
 
 .news__item--bg-wedding {
-    background-image: url(/img/wedding.png);
+    background-image: url(../img/wedding.png);
 }
 
 .news__content {
