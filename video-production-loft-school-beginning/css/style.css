@@ -3,9 +3,6 @@
 
 body {
     background: #17191C;
-    background-image: url(../img/hero.png);
-    background-position: top;
-    background-repeat: no-repeat;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -13,10 +10,9 @@ body {
 }
 
 .wrapper {
-    background-image: url(../img/bottom-pic.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    
+    background: url(../img/hero.png), url(../img/bottom-pic.png);
+    background-position: center top, center bottom;
+    background-repeat: no-repeat, no-repeat;
 }
 
 .conteiner {
@@ -63,7 +59,7 @@ body {
 }
 
 .header .contacts {
-    margin-bottom: 6px;
+    text-align: right;
 }
 
 .contacts__tell {
@@ -75,7 +71,6 @@ body {
     color: #FF3D00;
     font-size: 13px;
     font-weight: 400;
-    margin-left: 86px;
     text-decoration: underline;
     line-height: 20px;
 }
@@ -130,6 +125,7 @@ body {
     height: 476px;
     margin-right: 27px;
     border-radius: 5px ;
+    padding: 30px 34px 53px 22px;
 }
 
 .price__item:last-child{
@@ -137,13 +133,11 @@ body {
 }
 
 .price__icon {
-    padding-top: 36px;
-    padding-left: 29px;
+    margin-bottom: 30px;
 }
 
 .price__content {
     color: #000;
-    padding: 30px 34px 53px 22px;
 }
 
 .price__title {
