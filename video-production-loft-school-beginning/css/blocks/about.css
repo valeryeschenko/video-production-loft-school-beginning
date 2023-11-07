@@ -1,0 +1,33 @@
+.about {
+    margin-bottom: 53px;
+}
+
+.about__image {
+    display: inline-block;
+    width: 490px;
+    height: 505px;
+}
+
+.about__content {
+    display: inline-block;
+    width: 781px;
+    height: 455px;
+    margin-top: 97px;
+    margin-left: -136px;
+    background-color: #fff;
+    color: #000;
+    padding: 70px 202px 66px 81px;
+    border-radius: 5px;
+}
+
+.about__title {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 37px;
+    text-transform: uppercase;
+}
+.about__text {
+    margin-bottom: 43px;
+    font-size: 16px;
+    font-weight: 400;
+}

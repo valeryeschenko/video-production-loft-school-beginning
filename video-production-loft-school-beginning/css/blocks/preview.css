@@ -1,0 +1,32 @@
+.preview {
+    text-align: center;
+    margin-bottom: 233px;
+}
+
+.preview__title {
+    font-weight: 800;
+    font-size: 72px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.preview__info {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 44px;
+}
+
+.button {
+    min-width: 195px;
+    min-height: 55px;
+    background-color: #FF3D00;
+    color: #fff;
+    border-radius: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #DA0100;
+}

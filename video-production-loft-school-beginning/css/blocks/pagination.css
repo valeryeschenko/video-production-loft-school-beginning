@@ -1,0 +1,39 @@
+.paginator {
+  text-align: center;
+}
+.paginator__display {
+  display: inline-block;
+  margin-right: 25px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.paginator__list {
+  display: inline-block;
+}
+.paginator__item {
+  display: inline-block;
+}
+
+.paginator__link {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border-radius: 50px;
+  line-height: 32px;
+}
+
+.paginator__link:hover{
+  background-color: #FF3D00;
+  border-radius: 50px;
+  line-height: 32px;
+}
+
+.paginator--color {
+  color: #000;
+}
+
+.paginator--color-item:hover {
+  color: #fff;
+}
+

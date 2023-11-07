@@ -1,0 +1,16 @@
+.header .contacts {
+  text-align: right;
+}
+
+.contacts__tell {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.contacts__graph {
+  color: #FF3D00;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: underline;
+  line-height: 20px;
+}
