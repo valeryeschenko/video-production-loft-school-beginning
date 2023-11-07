@@ -27,11 +27,11 @@
 }
 
 .news__item--bg-clip {
-    background-image: url(img/bg/content-bg/camera.png);
+    background-image: url(../../img/bg/content-bg/camera.png);
 }
 
 .news__item--bg-wedding {
-    background-image: url(img/bg/content-bg/wedding.png);
+    background-image: url(../../img/bg/content-bg/wedding.png);
 }
 
 .news__content {

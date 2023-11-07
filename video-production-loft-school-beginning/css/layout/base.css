@@ -25,7 +25,7 @@ body {
 	overflow: hidden;
 	min-width: 1920px;
 	min-height: 100%;
-	background: url(img/bg/main-bg/hero.png), url(img/bg/main-bg/bottom-pic.png);
+	background: url(../../img/bg/main-bg/hero.png), url(../../img/bg/main-bg/bottom-pic.png);
     background-position: center top, center bottom;
     background-repeat: no-repeat, no-repeat;
 	display: flex;
