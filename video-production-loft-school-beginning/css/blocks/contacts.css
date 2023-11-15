@@ -7,10 +7,51 @@
   font-weight: 400;
 }
 
-.contacts__graph {
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown__link {
   color: #FF3D00;
   font-size: 13px;
   font-weight: 400;
   text-decoration: underline;
   line-height: 20px;
+}
+
+.dropdown:hover .dropdown__link {
+  text-decoration: underline;
+}
+
+.dropdown__menu {
+  position: absolute;
+  background-color: #FFFFFF;
+  color: #1E1F20;
+  font-size: 13px;
+  font-weight: 700;
+  width: 160px;
+  padding: 22px 19px 15px;
+  border-radius: 3px;
+  top: 100%;
+  margin-top: 9px;
+  opacity: 0;
+  transition: opacity .4s;
+  right: -9999px;
+}
+
+.dropdown__menu::after {
+  content: "";
+  border: 9px solid transparent;
+  position: absolute;
+  top: -13px;
+  right: 45px;
+  border-right-color: #FFFFFF;
+  border-left-width: 0;
+  transform: rotate(90deg);
+}
+
+.dropdown:hover .dropdown__menu {
+  right: 0;
+  opacity: 1;
 }

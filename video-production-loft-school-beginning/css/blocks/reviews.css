@@ -1,0 +1,236 @@
+.reviews {
+    display: flex;
+    background-color: #fff;
+    color: black;
+}
+
+.reviews__list {
+    column-count: 2;
+    column-gap: 30px;
+    margin: 94px 0 71px;
+}
+
+.reviews__item {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 31px 32px;
+    background-color: #F4F5F5;
+    border-radius: 4px;
+    margin-bottom: 17px;
+}
+
+.reviews__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.reviews__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__img {
+    width: 140px;
+    height: 140px;
+    margin-right: 22px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 11px;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #2E77A4;
+}
+
+.name::after {
+    content: url(../../img/reviews/vk-blue\ 1.png);
+    height: 30px;
+    margin-left: 7px;
+}
+
+.paginator-reviews {
+    background-color: #fff;
+    padding-bottom: 65px;
+}
+
+.review__tags {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.review__tag-item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.review__tag-item:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.tag {
+    font-size: 13px;
+    font-weight: 400;
+    color: #303030;
+    padding: 10px 25px;
+    background-color: #E7E7E7;
+    border-radius: 35px;
+}
+
+.tag--bg--roze {
+    background-color: #F2D4C9;
+}
+
+.reviews__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #202020;
+    margin-bottom: 13px;
+}
+
+.reviews__text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #818181;
+    margin-bottom: 48px;
+}
+
+.reviews__date {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sale {
+    display: flex;
+    align-items: center;
+    height: 360px;
+    background-image: url(../../img/reviews/Rectangle.png);
+}
+
+.sale__title {
+    position: relative;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.bg-sale {
+    position: absolute;
+    top: 0;
+    left: 400px;
+    bottom: 0;
+    margin: auto;
+}
+
+.color-sale {
+    color: #FF5400;
+}
+
+.category-sale {
+    display: block;
+}
+
+.form-section {
+  background-color: #F4F5F5;
+  padding: 79px 0 96px 0;
+}
+
+.form-section__title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #202020;
+  text-transform: uppercase;
+  margin-bottom: 56px;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+.form__input {
+  flex: 1;
+  outline: none;
+  margin-right: 28px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background: #fff;
+  padding: 20px 30px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1A1B1E;
+}
+
+.form__input:focus {
+  border-color: 1px solid gray;
+}
+
+.form__input::placeholder {
+  color: #666;
+}
+
+.form__input:last-child {
+  margin-right: 0;
+}
+
+.form__input--textarea {
+  height: 235px;
+}
+
+.controls__elem {
+  cursor: pointer;
+}
+
+.controls_checkbox:checked ~ .controls__tag {
+  background: #F2D4C9;
+}
+
+.controls_checkbox {
+  display: none;
+}
+
+.form__controls {
+  display: flex;
+  margin-bottom: 33px;
+}
+
+.form__controls-title {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1A1B1E;
+  width: 40%;
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -18px;
+  margin-bottom: -10px;
+}
+
+.controls__item {
+  margin-right: 18px;
+  margin-bottom: 10px;
+}
+
+.form__button {
+  display: flex;
+  justify-content: right;
+} 
+
+.button-margin {
+  margin-left: 13px;
+}
+
+.button--bg-gray {
+  background: #8E8E8E;
+}
+
+.button--bg-gray:hover {
+  background: #000;
+}

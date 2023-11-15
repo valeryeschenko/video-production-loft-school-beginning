@@ -1,14 +1,15 @@
-.services__preview {
-    background:url(../../img/bg/services-bg/top-line.png);
+.section__preview {
+    background:url(/img/bg/services-bg/top-line.png);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.preview__title {
+.top-line-title {
     margin-bottom: 84px;
 }
 
-.services__main {
+.section__main{
     background-color: #fff;
     padding: 94px 0 63px;
 }
@@ -61,7 +62,7 @@
     margin-bottom: 73px;
 }
 
-.partneers__list {
+.partners__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
