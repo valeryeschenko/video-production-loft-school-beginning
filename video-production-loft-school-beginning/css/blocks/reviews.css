@@ -166,7 +166,7 @@
 }
 
 .form__input:focus {
-  border-color: 1px solid gray;
+  border-color: #ccc;
 }
 
 .form__input::placeholder {

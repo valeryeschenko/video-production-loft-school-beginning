@@ -1,17 +1,59 @@
 .socials__list {
   display: flex;
   margin-top: 21px;
-
 }
 
 .socials__item {
+  background: url(../../img/icons/socials-icon/sprite.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 36px;
+  height: 36px;
   margin-right: 10px;
   width: 36px;
   height: 36px;
 }
 
+.socials__item--telegram {
+  background-position: -97px -5px;
+}
+
+.socials__item--telegram:hover {
+  background-position: -97px -51px;
+}
+
+.socials__item--vk {
+  background-position: -5px -97px;
+}
+
+.socials__item--vk:hover {
+  background-position: -51px -97px;
+}
+
+.socials__item--fb {
+  background-position: -5px -5px;
+}
+
+.socials__item--fb:hover {
+  background-position: -51px -5px;
+}
+
+.socials__item--in {
+  background-position: -5px -51px;
+}
+
+.socials__item--in:hover {
+  background-position: -51px -51px;
+}
+
 .socials__item:last-child {
   margin-right: 0;
+}
+
+.socials__link {
+  display: block;
+  width: 36px;
+  height: 36px;
 }
 
 .contacts__free-call {

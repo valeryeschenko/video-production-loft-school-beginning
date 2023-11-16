@@ -1,8 +1,12 @@
-.section__preview {
-    background:url(/img/bg/services-bg/top-line.png);
+.section-preview {
+    background:url(../../img/bg/services-bg/top-line.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.menu__link--active {
+    color: #FF3D00;
 }
 
 .top-line-title {
@@ -12,10 +16,6 @@
 .section__main{
     background-color: #fff;
     padding: 94px 0 63px;
-}
-
-.partners {
-    background-color: #F4F5F5;
 }
 
 .services__list {
@@ -52,6 +52,7 @@
 }
 
 .partners {
+    background-color: #F4F5F5;
     padding: 88px 0 43px 0;
 }
 
@@ -71,4 +72,12 @@
 .partners__item {
     width: 25%;
     margin-bottom: 76px;
+}
+
+.partners__img {
+    filter: grayscale(1);
+}
+
+.partners__img:hover {
+    filter: grayscale(0);
 }

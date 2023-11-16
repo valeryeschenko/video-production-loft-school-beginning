@@ -14,7 +14,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: #17191C;
 	font-size: 16px;
     font-weight: bold;
     color: #FFFFFF;
@@ -23,15 +22,20 @@ body {
 .wrapper {
 	overflow: hidden;
 	min-height: 100%;
-	background: url(../../img/bg/main-bg/hero.png), url(../../img/bg/main-bg/bottom-pic.png);
-    background-position: center top, center bottom;
-    background-repeat: no-repeat, no-repeat;
 	display: flex;
 	flex-direction: column;
 }
 
 .wrapper--nobg {
 	background: none;
+}
+
+
+.wrapper--bg {
+	background: url(../../img/bg/main-bg/hero.png), url(../../img/bg/main-bg/bottom-pic.png);
+    background-position: center top, center bottom;
+    background-repeat: no-repeat, no-repeat;
+	background-color: #17191C;
 }
 
 .wrapper__content {

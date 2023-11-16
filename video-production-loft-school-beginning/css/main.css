@@ -16,3 +16,65 @@
 @import url('./blocks/socials.css');
 @import url('./blocks/servicces.css');
 @import url('./blocks/reviews.css');
+
+/* welcome page */
+
+.welcome {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: url(../img/welcome-page.png) center / cover no-repeat;
+}
+
+.welcome::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/rec.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -100;
+   }
+
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.central__logo {
+    width: 538px;
+    margin-bottom: 38px;
+}
+
+.central--animation {
+    opacity: 0;
+    animation: videoAnimation 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes videoAnimation {
+    from {
+        transform: scale(0.1) rotate(30deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    70% {
+        transform: rotate(5deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
