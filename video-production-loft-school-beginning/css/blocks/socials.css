@@ -6,12 +6,9 @@
 .socials__item {
   background: url(../../img/icons/socials-icon/sprite.png);
   background-repeat: no-repeat;
-  display: block;
   width: 36px;
   height: 36px;
   margin-right: 10px;
-  width: 36px;
-  height: 36px;
 }
 
 .socials__item--telegram {
@@ -48,12 +45,6 @@
 
 .socials__item:last-child {
   margin-right: 0;
-}
-
-.socials__link {
-  display: block;
-  width: 36px;
-  height: 36px;
 }
 
 .contacts__free-call {
